@@ -103,13 +103,13 @@ def movies_with_directors_set(source)
   { :named => 'director2' ,:movie =>['movieb'], :revenue => 2}''
   { :named => 'director2', :movie => ['moviec']},:revenue => 3}
   STUDIO2=
-  {:movie => ['movie1']},:revenue => 4}
-  {:movie =>['movie2']}, :revenue => 5}
-  {:movie => ['movie3']}, :revenue => 6}
+  {:named=> 'director1':movie => ['movie1']},:revenue => 4}
+  {:named => 'director1':movie =>['movie2']}, :revenue => 5}
+  {:named => 'director1':movie => ['movie3']}, :revenue => 6}
   STUDIO3 =
-  {:movie => ['moviex']}, :revenue => 7}
-  {:movie => ['moviey']}, :revenue => 8}
-  {:movie => ['moviez']}, 
+  {:name => :movie => 'moviex', :revenue => 7}
+  {:name => :movie => 'moviey', :revenue => 8}
+  {:name =>:movie => 'moviez', :revenu => 9}
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
