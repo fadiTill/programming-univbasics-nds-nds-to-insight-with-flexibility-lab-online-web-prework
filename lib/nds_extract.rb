@@ -36,7 +36,7 @@ end
 def movies_with_director_key(name, movies_collection)
   movies_collection = {
     :movie_collection => ['movie1','movie2','movie3']
-    :movie_collection=> ['moviea' ,'movieb', 'moviec']
+    :movie_collection => ['moviea' ,'movieb', 'moviec']
     :movie_collection => ['moviex' ,'moviey', 'moviez']
    def movie_with_director_name (name) {
      name ={
