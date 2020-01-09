@@ -99,17 +99,17 @@ end
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #TUDIO1 =
-  {  :named => 'director2', :movie => 'moviea', :revenue => 1},
-  { :named => 'director2' ,:movie =>['movieb'], :revenue => 2}''
-  { :named => 'director2', :movie => ['moviec']},:revenue => 3}
+  [{  :named => 'director2', :movie => 'moviea', :revenue => 1},
+  { :named => 'director2' ,:movie =>'movieb', :revenue => 2}''
+  { :named => 'director2', :movie => 'moviec'},:revenue => 3}],
   STUDIO2=
-  {:named=> 'director1':movie => ['movie1']},:revenue => 4}
-  {:named => 'director1':movie =>['movie2']}, :revenue => 5}
-  {:named => 'director1':movie => ['movie3']}, :revenue => 6}
+  [{:named=> 'director1':movie => 'movie1',:revenue => 4},
+  {:named => 'director1':movie =>'movie2', :revenue => 5},
+  {:named => 'director1':movie => 'movie3', :revenue => 6}],
   STUDIO3 =
-  {:name => :movie => 'moviex', :revenue => 7}
-  {:name => :movie => 'moviey', :revenue => 8}
-  {:name =>:movie => 'moviez', :revenu => 9}
+  [{:named => 'director3' ,:movie => 'moviex', :revenue => 7},
+  {:named =>'director3' :movie => 'moviey', :revenue => 8},
+  {:named =>:'director3', :movie => 'moviez', :revenue => 9}]
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
