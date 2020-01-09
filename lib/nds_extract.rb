@@ -84,7 +84,10 @@ def gross_per_studio(collection)
   {:movie => ['moviey']}, :revenue => 8}
   {:movie => ['moviez']}, :revenue => 9}
   total_
-  # return a Hash that includes the total worldwide_gross of all the movies from
+  # return a Hash that includes the total
+  # GOAL: For each director, find their :movies Array and stick it in a new Array
+  STUDIO1 =
+  [{  :named => 'director2', :movie =>  worldwide_gross of all the movies from
   # each studio.
   #
   # INPUT:
@@ -96,10 +99,7 @@ def gross_per_studio(collection)
   # total of all the worldwide_gross numbers for every movie in the input Hash
 end
 
-def movies_with_directors_set(source)
-  # GOAL: For each director, find their :movies Array and stick it in a new Array
-  STUDIO1 =
-  [{  :named => 'director2', :movie => 'moviea', :revenue => 1},
+def movies_with_directors_set(source)'moviea', :revenue => 1},
   { :named => 'director2' ,:movie =>'movieb', :revenue => 2}''
   { :named => 'director2', :movie => 'moviec'},:revenue => 3}],
   STUDIO2=
