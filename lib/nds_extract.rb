@@ -34,6 +34,23 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
+  movies_collection = {
+    :movie_collection => ['movie1','movie2','movie3']
+    :movie_collection=> ['moviea' ,'movieb', 'moviec']
+    :movie_collection => ['moviex' ,'moviey', 'moviez']
+   def movie_with_director_name (name) {
+     name ={
+     :name=> ['directorname1']
+     :name => ['director2']
+     :name => ['director3']
+     
+    def newmethod
+      newmethod = { [movies_collection [0]+ name[0]],
+      movies_collection [1]+ name[1]],[movies_collection][2]+ name[2] ]
+     
+   }
+  }
+  
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
   # and accumulate the returned Array of movies into a new Array that's
@@ -52,7 +69,21 @@ end
 
 
 def gross_per_studio(collection)
+  gross_per =  {
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
+  STUDIO1 =
+  {:movie => ['moviea'], :revenue => 1},
+  {:movie =>['movieb'], :revenue => 2}
+  {:movie => ['moviec']},:revenue => 3}
+  STUDIO2=
+  {:movie => ['movie1']},:revenue => 4}
+  {:movie =>['movie2']}, :revenue => 5}
+  {:movie => ['movie3']}, :revenue => 6}
+  STUDIO3 =
+  {:movie => ['moviex']}, :revenue => 7}
+  {:movie => ['moviey']}, :revenue => 8}
+  {:movie => ['moviez']}, :revenue => 9}
+  total_
   # return a Hash that includes the total worldwide_gross of all the movies from
   # each studio.
   #
