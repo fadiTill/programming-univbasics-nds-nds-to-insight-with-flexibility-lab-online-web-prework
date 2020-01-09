@@ -98,7 +98,7 @@ end
 
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
-  #TUDIO1 =
+  STUDIO1 =
   [{  :named => 'director2', :movie => 'moviea', :revenue => 1},
   { :named => 'director2' ,:movie =>'movieb', :revenue => 2}''
   { :named => 'director2', :movie => 'moviec'},:revenue => 3}],
